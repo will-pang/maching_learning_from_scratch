@@ -28,6 +28,7 @@ class AgglomerativeHierarchicalClustering:
 
     def merge_and_form_new_clusters(self, ci_id, cj_id):
         new_clusters = {0: self.clusters[ci_id] + self.clusters[cj_id]}
+        print(f"New Clusters: {new_clusters}")
 
         for cluster_id in self.clusters.keys():
             if (cluster_id == ci_id) | (cluster_id == cj_id):
