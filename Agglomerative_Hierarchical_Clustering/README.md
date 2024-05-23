@@ -9,6 +9,7 @@ Briefly, the procedure is to:
 
 ## Sample Usage
 `python main.py -d data.csv -k 4 -m 0 -s output_single_linkage.csv`
+`python main.py -d data.csv -k 4 -m 2 -s output_wards_distance.csv`
 
 To get help, try:
 `python main.py --help`
