@@ -8,7 +8,7 @@ Briefly, the procedure is to:
 - Repeat until we've reached desired number of clusters
 
 ## Sample Usage
-`python main.py -d data.csv -k 4 -m 0 -s output_single_linkage.csv`
+`python main.py -d data.csv -k 4 -m 0 -s output_single_linkage.csv` <br>
 `python main.py -d data.csv -k 4 -m 2 -s output_wards_distance.csv`
 
 To get help, try:
