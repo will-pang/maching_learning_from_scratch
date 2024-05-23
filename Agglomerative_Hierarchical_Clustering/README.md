@@ -16,5 +16,5 @@ To get help, try:
 ### References
 [1] Implementation for this project was based on the work of Ola Pietka's 
 [Agglomerative Hiearching Clustering from Scratch](https://github.com/OlaPietka/Agglomerative-Hierarchical-Clustering-from-scratch). 
-The changes I've made were to add ~~a method that allows for [Ward Linkage](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html) 
-, as well as~~ the ability to save the data as a csv. <br>
+The changes I've made were to add a method that allows for [Ward Linkage](https://en.wikipedia.org/wiki/Ward%27s_method) 
+, as well as the ability to save the data as a csv. <br>

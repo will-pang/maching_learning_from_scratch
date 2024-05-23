@@ -29,12 +29,13 @@ def wards_distance(ci, cj):
     # return (within_cluster_variance(ci) +
     #         within_cluster_variance(cj) -
     #         within_cluster_variance(ci + cj))/n
-    n_i = len(ci)
-    n_j = len(cj)
-    return (((within_cluster_variance(ci) * n_i +
-            within_cluster_variance(cj) * n_j)/(n_i + n_j))
-            - (within_cluster_variance(ci + cj)/(n_i + n_j))
-            )
+    # n_i = len(ci)
+    # n_j = len(cj)
+    # return (((within_cluster_variance(ci) * n_i +
+    #         within_cluster_variance(cj) * n_j)/(n_i + n_j))
+    #         - (within_cluster_variance(ci + cj)/(n_i + n_j))
+    #         )
+    return math.sqrt(2 * (within_cluster_variance(ci + cj) - within_cluster_variance(ci) - within_cluster_variance(cj)))
 
 
 def get_distance_measure(M):
